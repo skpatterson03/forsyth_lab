@@ -4,6 +4,7 @@
 
 - brief explanation of structure of github
 - brief explanation of main data files
-- brief explanation of process
+- brief explanation of scripts 
 - background
-- how to recreate code (create environment....) 
+- how to recreate code (create environment....)
+    pip env (copy from here: https://github.com/mvnye/F1-Qualifying-Analysis)

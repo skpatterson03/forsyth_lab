@@ -8,10 +8,10 @@ def load_data():
     data = {}
     
     # Load GFF files
-    data['ctrl_ph7'] = gffpd.read_gff3('../data/sample1_modification.gff')  # Wild Type pH 7
-    data['arss_ph7'] = gffpd.read_gff3('../data/sample2_modification.gff')  # ArsS deletion pH 7, cannot detect pH change
-    data['ctrl_ph5'] = gffpd.read_gff3('../data/sample5_modification.gff')  # wild type pH 5
-    data['arss_ph5'] = gffpd.read_gff3('../data/sample6_modification.gff')  # ArsS deletion pH 5
+    data['ctrl_ph7'] = gffpd.read_gff3('../data/raw_data/sample1_modification.gff')  # Wild Type pH 7
+    data['arss_ph7'] = gffpd.read_gff3('../data/raw_data/sample2_modification.gff')  # ArsS deletion pH 7, cannot detect pH change
+    data['ctrl_ph5'] = gffpd.read_gff3('../data/raw_data/sample5_modification.gff')  # wild type pH 5
+    data['arss_ph5'] = gffpd.read_gff3('../data/raw_data/sample6_modification.gff')  # ArsS deletion pH 5
     
     # Load annotation and TSS files
     data['annot'] = pd.read_csv("../data/hpy_annot.tsv", sep='\t')  # hpy annotation file

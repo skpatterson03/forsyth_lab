@@ -35,8 +35,8 @@ Code and data-processing pipeline supporting a study of the DNA methylome of *He
 Clone the repository and install Python dependencies:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone <[repository-url](https://github.com/skpatterson03/forsyth_lab/tree/main)>
+cd <forsyth_lab>
 pipenv install
 pipenv shell
 ```
